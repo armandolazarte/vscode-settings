@@ -1,0 +1,103 @@
+// Coloque sus atajos de teclado en este archivo para sobreescribir los valores predeterminados
+[
+    {
+        "key": "alt+1",
+        "command": "workbench.view.explorer",
+        "when": "!explorerViewletVisible"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.view.explorer",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "explorerViewletVisible"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "alt+5",
+        "command": "-workbench.view.debug",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+numpad5",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "alt+numpad5",
+        "command": "-workbench.view.debug",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "alt+9",
+        "command": "-workbench.view.scm",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+numpad9",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "alt+numpad9",
+        "command": "-workbench.view.scm",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+5",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+9",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+numpad1",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+numpad5",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "alt+numpad9",
+        "command": "-workbench.action.toggleSidebarVisibility",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "runInTerminal.run",
+        "args": {
+            "match": ".*\\.php$",
+            "cmd": "php vendor/bin/pint --config pint.json ${relativeFile}",
+        },
+        "when": "resourceLangId == php"
+    }
+]
