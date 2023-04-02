@@ -1,0 +1,286 @@
+{
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "oneDarkPro.bold": true,
+    "oneDarkPro.italic": true,
+    "oneDarkPro.vivid": true,
+    "php.suggest.basic": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "emmet.includeLanguages": {
+        "*.blade.php": "html",
+        "vue": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php",
+        "*.css": "tailwindcss",
+        "*.js": "javascriptreact",
+        // "*.blade.php": "html",
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editor.languageDetection": true,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "editor.codeLens": false,
+    "workbench.startupEditor": "none",
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "never",
+    "editor.lineNumbers": "on",
+    "explorer.openEditors.visible": 0,
+    "workbench.sideBar.location": "right",
+    "editor.renderWhitespace": "all",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 40,
+    "editor.letterSpacing": 0,
+    "editor.fontFamily": "Operator Mono Lig, Cascadia Code, JetBrains Mono, Fira Code, Victor Mono",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 28,
+    "editor.fontWeight": 400,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "MesloLGM NF",
+    "terminal.integrated.fontWeight": "700",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    // When I accidentally hit copy without selecting anything and it overrides my clipboard - ugh.
+    "editor.emptySelectionClipboard": false,
+    // I removed the hyphen "-" from this list for better multi-cursor navigation.
+    // @freekmurze suggested I remove "$" too for php variables - brilliant!
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    // Give it to me as fast as you have it.
+    "editor.quickSuggestionsDelay": 0,
+    // In sublime I got used to almost exclusively using "cmd+shift+v" (format on paste) - now it will do it by default!
+    "editor.formatOnPaste": true,
+    // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "punctuation.definition.comment",
+                    "comment.block",
+                    "comment.line",
+                    "comment.block.documentation",
+                    "comment.line.double-slash",
+                    "entity.other.attribute-name",
+                    "entity.other.attribute-name.html",
+                    "markup.italic",
+                    "entity.other.attribute-name.id",
+                    "entity.other.attribute-name.class.css",
+                    "entity.other.attribute-name.tag.jade",
+                    "entity.other.attribute-name.class.jade",
+                    "entity.other.attribute-name.id.jade",
+                    "keyword.control",
+                    "storage",
+                    "emphasis",
+                    "variable.language"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${activeEditorMedium}${separator}${rootName} ${dirty}",
+    "window.openFilesInNewWindow": "on",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.executablePathWindows": "php-cs-fixer.bat",
+    "php-cs-fixer.onsave": false,
+    "php-cs-fixer.rules": "@PSR12",
+    "php-cs-fixer.config": ".php-cs-fixer.php;.php-cs-fixer.dist.php;.php_cs;.php_cs.dist",
+    "php-cs-fixer.allowRisky": false,
+    "php-cs-fixer.pathMode": "override",
+    "php-cs-fixer.exclude": [],
+    "php-cs-fixer.autoFixByBracket": true,
+    "php-cs-fixer.autoFixBySemicolon": false,
+    "php-cs-fixer.formatHtml": false,
+    "php-cs-fixer.documentFormattingProvider": true,
+    "git.confirmSync": false,
+    "workbench.activityBar.visible": false,
+    "files.autoSave": "onFocusChange",
+    "search.useIgnoreFiles": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "cSpell.language": "en,es-ES",
+    "editor.linkedEditing": true,
+    "editor.inlineSuggest.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.userWords": [
+        "afip",
+        "afipsdk",
+        "alpinejs",
+        "ansi",
+        "autoload",
+        "autoloader",
+        "barryvdh",
+        "bmewburn",
+        "Cascadia",
+        "centroide",
+        "classmap",
+        "cuil",
+        "cuit",
+        "CUIT",
+        "datatables",
+        "debugbar",
+        "Dispatchable",
+        "dompdf",
+        "dont",
+        "emeraldwalk",
+        "Encapsed",
+        "esbenp",
+        "facturacion",
+        "fakerphp",
+        "Fira",
+        "flysystem",
+        "guzzlehttp",
+        "HOTELERÍA",
+        "inertiajs",
+        "inscripcion",
+        "Inscripto",
+        "Inscriptos",
+        "intelephense",
+        "jenssegers",
+        "jetstream",
+        "Jujuy",
+        "laragon",
+        "laravel",
+        "listbox",
+        "livewire",
+        "Livewire",
+        "nowrite",
+        "nullable",
+        "Nunito",
+        "nunomaduro",
+        "odij",
+        "pestphp",
+        "phpunit",
+        "produccion",
+        "Queueable",
+        "runonsave",
+        "shufo",
+        "southeners",
+        "spatie",
+        "tabindex",
+        "tabnine",
+        "tailwindcss",
+        "yajra"
+    ],
+    "php-cs-fixer.lastDownload": 1680193518963,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html"
+    },
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "[php]": {
+        // "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter",
+        "editor.autoClosingBrackets": "always",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        }
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.codeActionsOnSave.mode": "problems",
+    "editor.guides.indentation": false,
+    "inlineFold.supportedLanguages": [
+        "html",
+        "svelte",
+        "vue",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact",
+        "php",
+        "blade.php"
+    ],
+    "laravel-pint.enable": true,
+    "laravel-pint.enableDebugLogs": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    /* "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*\\.php$",
+                "isAsync": true,
+                "cmd":"php vendor/bin/pint --config pint.json ${file}"
+            },
+        ]
+    } */
+    /* "runOnSave.commands": [
+        {
+            "match": ".*\\.php$",
+            "runIn": "terminal",
+            "async": true,
+            "command": "php vendor/bin/pint --config pint.json ${fileRelative}",
+        }
+    ] */
+    "alpine-intellisense.settings.languageScopes": "html,php,blade",
+    "explorer.confirmDelete": false,
+    "editor.accessibilitySupport": "off",
+    "bladeFormatter.format.sortHtmlAttributes": "code-guide",
+    "bladeFormatter.format.sortTailwindcssClasses": true,
+    "bladeFormatter.format.wrapAttributes": "force-expand-multiline",
+    "php.executables": {
+        "7.4": "C:\\laragon\\bin\\php\\php-7.4\\php.exe",
+        "8.0": "C:\\laragon\\bin\\php\\php-8.0\\php.exe",
+        "8.1": "C:\\laragon\\bin\\php\\php-8.1\\php.exe",
+        "8.2": "C:\\laragon\\bin\\php\\php-8.2\\php.exe"
+    },
+    "LaravelIntelephense.modelsPaths": ["app", "app/Models" ],
+    "LaravelIntelephense.viewExtensions": [".blade.php", ".vue" ],
+    "LaravelIntelephense.viewFolders": {
+        "default": "/resources/views",
+        "js": "/resources/js/Pages",
+        "livewire": "/resources/views/livewire",
+        "vendor": "/resources/views/vendor"
+    },
+    "LaravelIntelephense.viewDirectorySeparator": ".",
+    "LaravelIntelephense.createViewEveryWhere": true,
+    "LaravelIntelephense.disableGoToView": false,
+    "LaravelIntelephense.disableGoToConfig": false,
+    "LaravelIntelephense.disableAssetCompletion": false,
+    "LaravelIntelephense.disableAuthCompletion": false,
+    "LaravelIntelephense.disableBladeCompletion": false,
+    "LaravelIntelephense.disableControllerCompletion": false,
+    "LaravelIntelephense.disableConfigCompletion": false,
+    "LaravelIntelephense.disableCurlyBracesSpacer": false,
+    "LaravelIntelephense.disableEloquentCompletion": false,
+    "LaravelIntelephense.disableEnvCompletion": false,
+    "LaravelIntelephense.disableMiddlewareCompletion": false,
+    "LaravelIntelephense.disableMixCompletion": false,
+    "LaravelIntelephense.disableRouteCompletion": false,
+    "LaravelIntelephense.disableTranslationCompletion": false,
+    "LaravelIntelephense.disableValidationCompletion": false,
+    "LaravelIntelephense.disableViewCompletion": false
+
+}
